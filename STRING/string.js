@@ -90,3 +90,6 @@ console.log(st2.toLowerCase())
 
 console.log(st2.trim())
 
+
+
+// toUppercase , toLowercase , indexOf , trim() , include() , split()
