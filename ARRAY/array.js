@@ -113,3 +113,7 @@ console.log(fruit.indexOf("Banana"));
 // fruits.sort();
 
 // console.log(fruits);
+
+// shift() , unshift() , push() , pop() , indexOf() , sort()  
+
+
