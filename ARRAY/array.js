@@ -100,3 +100,20 @@
 
 //? syntax : arr.indexOf(value);
 
+let fruit = ["Banana","Apple"]
+console.log(fruit.indexOf("Banana"));
+
+//! sort()
+//* sorts the element of an array 
+
+//? synatax : array.sort
+
+// let fruits = ["Mango", "Apple", "Banana"];
+
+// fruits.sort();
+
+// console.log(fruits);
+
+
+
+
