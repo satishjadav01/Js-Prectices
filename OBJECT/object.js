@@ -44,4 +44,9 @@ console.log(Object.keys(student))
 console.log(Object.values(student))
 
 //! assign 
-//* 
+//* it is used to create an new object is also known as assign
+
+//? syntax : object.assign(targetobj,newobj)
+
+let newalyCreateObj = Object.assign({},{name:"john",age:20});
+console.log(newalyCreateObj);
