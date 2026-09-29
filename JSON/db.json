@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Satish",
+      "age": 24,
+      "email": "satish@gmail.com",
+      "city": "Surat",
+      "skills": ["HTML", "CSS", "JavaScript", "React.js", "Node.js"]
+    },
+    {
+      "id": 2,
+      "name": "Chintu",
+      "age": 23,
+      "email": "chintu@gmail.com",
+      "city": "Ahmedabad",
+      "skills": ["JavaScript", "React.js", "MongoDB"]
+    },
+    {
+      "id": 3,
+      "name": "Montu",
+      "age": 25,
+      "email": "montu@gmail.com",
+      "city": "Rajkot",
+      "skills": ["HTML", "CSS", "JavaScript", "Node.js"]
+    }
+  ]
+}
