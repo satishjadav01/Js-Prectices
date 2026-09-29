@@ -51,7 +51,6 @@ let obj1 = {name:"Dhruv"};
 let obj2 = {...obj1,age:23};
 console.log(obj2);
 
-
 //! 6.Spread Operator:
 //* It is used to Spread or unpack the values .
 //? syntax : ...varName
@@ -59,3 +58,30 @@ let arr11 = [10,20,30,40];
 let arr22 = [50,60];
 let newArray = [...arr1,...arr2];
 console.log(newArray);
+
+//! 5. Destructuring 
+//* Destructuring means divide or breaking down big-structure into small values (variable) for easy use or access. we can perform Destructuring for Array and object
+
+//? 1.Array Destructuring
+let mixArray = [10,
+    "john",
+    true,
+    null,
+    undefined,
+    function(){
+        console.log("This is funtion");
+    },
+    [30,40,50],
+];
+//! Traditional way to access the array element:
+console.log(mixArray[0]);
+
+//! Destructuring of an array:
+let [a,b,c,d,e,f,g] = mixArray;
+console.log(a);
+console.log(b);
+console.log(g);
+
+//! Again we are Destructuring : 
+let [x,y,z] = g;
+console.log(x);
